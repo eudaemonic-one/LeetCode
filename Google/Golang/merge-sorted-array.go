@@ -1,23 +1,19 @@
 func merge(nums1 []int, m int, nums2 []int, n int)  {
-    sorted := make([]int, 0)
-    i, j := 0, 0
-    for i < m && j < n {
+    i, j, k := m-1, n-1, m+n-1
+    for i >= 0 && j >= 0 {
         if nums1[i] < nums2[j] {
-            sorted = append(sorted, nums1[i])
-            i++
+            nums1[k] = nums2[j]
+            j--
         } else {
-            sorted = append(sorted, nums2[j])
-            j++
+            nums1[k] = nums1[i]
+            i--
         }
+        k--
     }
-    if i < m {
-        sorted = append(sorted, nums1[i:m]...)
-    } else if j < n {
-        sorted = append(sorted, nums2[j:n]...)
-    }
-    fmt.Println(sorted)
-    for k := 0; k < len(sorted); k++ {
-        nums1[k] = sorted[k]
+    for j >= 0 {
+        nums1[k] = nums2[j]
+        j--
+        k--
     }
     return
 }
