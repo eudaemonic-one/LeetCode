@@ -7,9 +7,8 @@
  * }
  */
 func isValidBST(root *TreeNode) bool {
-    // firstly inorder traverse the binary tree
     stack := make([]*TreeNode, 0)
-    sequence := make([]int, 0)
+    inorder := ^int(^uint(0) >> 1)
     for root != nil || len(stack) > 0 {
         for root != nil {
             stack = append(stack, root)
@@ -20,14 +19,11 @@ func isValidBST(root *TreeNode) bool {
         }
         root = stack[len(stack)-1]
         stack = stack[:len(stack)-1]
-        sequence = append(sequence, root.Val)
-        root = root.Right
-    }
-    // then judge if the sequence is nondecreasing
-    for i := 0; i < len(sequence)-1; i++ {
-        if sequence[i] >= sequence[i+1] {
+        if root.Val <= inorder {
             return false
         }
+        inorder = root.Val
+        root = root.Right
     }
     return true
 }
