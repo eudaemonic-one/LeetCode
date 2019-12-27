@@ -3,31 +3,34 @@ func canFinish(numCourses int, prerequisites [][]int) bool {
         return true
     }
     edges := make(map[int][]int)
-    visited := make([]bool, numCourses)
+    indegrees := make([]int, numCourses)
+    queue := make([]int, 0)
+    cnt := 0
     for i := 0; i < numCourses; i++ {
         edges[i] = make([]int, 0)
     }
     for _, seq := range prerequisites {
-        edges[seq[1]] = append(edges[seq[1]], seq[0])
+        start, end := seq[1], seq[0]
+        edges[start] = append(edges[start], end)
+        indegrees[end]++
     }
     for i := 0; i < numCourses; i++ {
-        if !visited[i] && isCyclic(edges, i, visited) {
-            return false
+        if indegrees[i] == 0 {
+            queue = append(queue, i)
+            cnt++
         }
     }
-    return true
-}
-
-func isCyclic(edges map[int][]int, start int, visited []bool) bool {
-    if visited[start] == true {
-        return true
-    }
-    visited[start] = true
-    for _, end := range edges[start] {
-        if isCyclic(edges, end, visited) {
-            return true
+    for len(queue) > 0 {
+        currVertex := queue[0]
+        queue = queue[1:]
+        for j := 0; j < len(edges[currVertex]); j++ {
+            nextVertex := edges[currVertex][j]
+            indegrees[nextVertex]--
+            if indegrees[nextVertex] == 0 {
+                queue = append(queue, nextVertex)
+                cnt++
+            }
         }
     }
-    visited[start] = false
-    return false
+    return cnt == numCourses
 }
