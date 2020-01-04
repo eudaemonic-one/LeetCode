@@ -12,19 +12,27 @@ func postorderTraversal(root *TreeNode) []int {
     }
     stack := []*TreeNode{root}
     output := make([]int, 0)
-    for len(stack) > 0 {
-        node := stack[len(stack)-1]
+    for true {
+        for root != nil {
+            if root.Right != nil {
+                stack = append(stack, root.Right)
+            }
+            stack = append(stack, root)
+            root = root.Left
+        }
+        root = stack[len(stack)-1]
         stack = stack[:len(stack)-1]
-        output = append(output, node.Val)
-        if node.Left != nil {
-            stack = append(stack, node.Left)
+        if root.Right != nil && len(stack) > 0 && root.Right == stack[len(stack)-1] {
+            stack = stack[:len(stack)-1]
+            stack = append(stack, root)
+            root = root.Right
+        } else if len(stack) > 0 {
+            output = append(output, root.Val)
+            root = nil
         }
-        if node.Right != nil {
-            stack = append(stack, node.Right)
+        if len(stack) == 0 {
+            break
         }
-    }
-    for i := 0; i < len(output)/2; i++ {
-        output[i], output[len(output)-i-1] = output[len(output)-i-1], output[i]
     }
     return output
 }
