@@ -1,38 +1,26 @@
 func canTransform(start string, end string) bool {
-    reducedStart, reducedEnd := "", ""
-    for i := 0; i < len(start); i++ {
-        if start[i] != 'X' {
-            reducedStart += string(start[i])
+    N := len(start)
+    i, j := 0, 0
+    for i < N && j < N {
+        for i < N && start[i] == 'X' {
+            i++
         }
-        if end[i] != 'X' {
-            reducedEnd += string(end[i])
+        for j < N && end[j] == 'X' {
+            j++
         }
-    }
-    if reducedStart != reducedEnd {
-        return false
-    }
-    LinEnd := make([]int, 0)
-    RinEnd := make([]int, 0)
-    for i := 0; i < len(end); i++ {
-        if end[i] == 'L' {
-            LinEnd = append(LinEnd, i)
-        } else if end[i] == 'R' {
-            RinEnd = append(RinEnd, i)
+        if i >= N && j >= N {
+            break
         }
-    }
-    l, r := 0, 0
-    for i := 0; i < len(start); i++ {
-        if start[i] == 'L' {
-            if i < LinEnd[l] {
+        if (i >= N && j < N) || (i < N) && (j >= N) {
+            return false
+        }
+        if i < N && j < N {
+            if start[i] != end[j] || (start[i] == 'L' && i < j) || (start[i] == 'R' && i > j) {
                 return false
             }
-            l++
-        } else if start[i] == 'R' {
-            if i > RinEnd[r] {
-                return false
-            }
-            r++
         }
+        i++
+        j++
     }
     return true
 }
