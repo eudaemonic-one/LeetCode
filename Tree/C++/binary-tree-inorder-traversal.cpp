@@ -9,18 +9,19 @@
  */
 class Solution {
 public:
+    vector<int> res;
+    
     vector<int> inorderTraversal(TreeNode* root) {
-        vector<int> res;
-        helper(root, &res);
+        helper(root);
         return res;
     }
     
-    void helper(TreeNode* node, vector<int>* res) {
+    void helper(TreeNode* node) {
         if (node == NULL) {
             return;
         }
-        helper(node->left, res);
-        (*res).push_back(node->val);
-        helper(node->right, res);
+        helper(node->left);
+        res.push_back(node->val);
+        helper(node->right);
     }
 };
