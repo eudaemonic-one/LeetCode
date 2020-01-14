@@ -16,13 +16,24 @@ public:
         if (root->left == NULL && root->right == NULL) {
             return 1;
         }
-        int min_length = INT_MAX;
-        if (root->left) {
-            min_length = min(min_length, minDepth(root->left));
+        int min_depth = INT_MAX;
+        stack<pair<TreeNode*, int>> stack;
+        stack.push(pair<TreeNode*, int>(root, 1));
+        while (!stack.empty()) {
+            pair<TreeNode*, int> curr = stack.top();
+            stack.pop();
+            TreeNode* node = curr.first;
+            int depth = curr.second;
+            if (node->left == NULL && node->right == NULL) {
+                min_depth = min(min_depth, depth);
+            }
+            if (node->left) {
+                stack.push(pair<TreeNode*, int>(node->left, depth+1));
+            }
+            if (node->right) {
+                stack.push(pair<TreeNode*, int>(node->right, depth+1));
+            }
         }
-        if (root->right) {
-            min_length = min(min_length, minDepth(root->right));
-        }
-        return min_length+1;
+        return min_depth;
     }
 };
