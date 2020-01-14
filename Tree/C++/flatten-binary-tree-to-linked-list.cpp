@@ -9,20 +9,19 @@
  */
 class Solution {
 public:
-    TreeNode *prev;
-    
     void flatten(TreeNode* root) {
-        if (root == NULL) {
-            return;
+        TreeNode *prev;
+        while (root) {
+            if (root->left) {
+                prev = root->left;
+                while (prev && prev->right) {
+                    prev = prev->right;
+                }
+                prev->right = root->right;
+                root->right = root->left;
+                root->left = NULL;
+            }
+            root = root->right;
         }
-        if (root->right) {
-            flatten(root->right);
-        }
-        if (root->left) {
-            flatten(root->left);
-        }
-        root->right = prev;
-        root->left = NULL;
-        prev = root;
     }
 };
