@@ -23,25 +23,17 @@ public:
         if (root == NULL) {
             return NULL;
         }
-        Node *node;
-        int n = 0;
-        queue<Node*> q;
-        q.push(root);
-        while (!q.empty()) {
-            n = q.size();
-            for (int i = 0; i < n; i++) {
-                node = q.front();
-                q.pop();
-                if (i < n-1) {
-                    node->next = q.front();
+        Node *leftmost = root, *head;
+        while (leftmost->left) {
+            head = leftmost;
+            while (head) {
+                head->left->next = head->right;
+                if (head->next) {
+                    head->right->next = head->next->left;
                 }
-                if (node->left) {
-                    q.push(node->left);
-                }
-                if (node->right) {
-                    q.push(node->right);
-                }
+                head = head->next;
             }
+            leftmost = leftmost->left;
         }
         return root;
     }
