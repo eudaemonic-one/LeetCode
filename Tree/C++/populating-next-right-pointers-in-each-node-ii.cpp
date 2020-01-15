@@ -21,26 +21,28 @@ public:
         if (root == NULL) {
             return NULL;
         }
-        Node *node;
-        int n = 0;
-        queue<Node*> q;
-        q.push(root);
-        while (!q.empty()) {
-            n = q.size();
-            for (int i = 0; i < n; i++) {
-                node = q.front();
-                q.pop();
-                if (i < n-1) {
-                    node->next = q.front();
-                }
-                if (node->left) {
-                    q.push(node->left);
-                }
-                if (node->right) {
-                    q.push(node->right);
-                }
+        Node *leftmost = root, *prev, *curr;
+        while (leftmost) {
+            prev = NULL;
+            curr = leftmost;
+            leftmost = NULL;
+            while (curr) {
+                processChild(curr->left, prev, leftmost);
+                processChild(curr->right, prev, leftmost);
+                curr = curr->next;
             }
         }
         return root;
+    }
+    
+    void processChild(Node *child, Node *&prev, Node *&leftmost) {
+        if (child) {
+            if (prev) {
+                prev->next = child;
+            } else {
+                leftmost = child;
+            }
+            prev = child;
+        }
     }
 };
