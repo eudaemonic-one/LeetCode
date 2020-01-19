@@ -11,26 +11,29 @@ class Solution {
 public:
     vector<int> rightSideView(TreeNode* root) {
         vector<int> ans;
-        queue<TreeNode*> q;
+        map<int, int> depthMap;
+        stack<pair<int, TreeNode*>> s;
         TreeNode *node;
-        int n = 0;
+        int depth = 0, maxDepth = 0;
         if (root == NULL) {
             return ans;
         }
-        q.push(root);
-        while (!q.empty()) {
-            n = q.size();
-            for (int i = 0; i < n; i++) {
-                node = q.front();
-                q.pop();
-                if (node->left) {
-                    q.push(node->left);
+        s.push(pair<int, TreeNode*>(0, root));
+        while (!s.empty()) {
+            depth = s.top().first;
+            node = s.top().second;
+            s.pop();
+            if (node) {
+                maxDepth = max(maxDepth, depth);
+                if (depthMap.find(depth) == depthMap.end()) {
+                    depthMap[depth] = node->val;
                 }
-                if (node->right) {
-                    q.push(node->right);
-                }
+                s.push(pair<int,TreeNode*>(depth+1, node->left));
+                s.push(pair<int,TreeNode*>(depth+1, node->right));
             }
-            ans.push_back(node->val);
+        }
+        for (int i = 0; i <= maxDepth; i++) {
+            ans.push_back(depthMap[i]);
         }
         return ans;
     }
