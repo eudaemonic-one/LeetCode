@@ -13,19 +13,22 @@ public:
         int ans = 0;
         if (root == NULL)
             return 0;
-        helper(root, 0, ans);
+        helper(root, ans);
         return ans;
     }
     
-    bool helper(TreeNode *root, int parent, int &ans) {
-        bool left, right;
-        if (root == NULL)
+    bool helper(TreeNode *root, int &ans) {
+        bool flag = true;
+        if ((root->left == NULL) && (root->right == NULL)) {
+            ++ans;
             return true;
-        left = helper(root->left, root->val, ans);
-        right = helper(root->right, root->val, ans);
-        if (!(left && right))
-            return false;
-        ++ans;
-        return root->val == parent;
+        }
+        if (root->left)
+            flag = helper(root->left, ans) && flag && (root->left->val == root->val);
+        if (root->right)
+            flag = helper(root->right, ans) && flag && (root->right->val == root->val);
+        if (flag)
+            ++ans;
+        return flag;
     }
 };
