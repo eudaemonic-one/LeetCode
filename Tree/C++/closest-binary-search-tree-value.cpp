@@ -10,20 +10,12 @@
 class Solution {
 public:
     int closestValue(TreeNode* root, double target) {
-        long prev = LONG_MIN;
-        stack<TreeNode*> s;
-        while ((!s.empty()) || (root != NULL)) {
-            while (root) {
-                s.push(root);
-                root = root->left;
-            }
-            root = s.top();
-            s.pop();
-            if (prev <= target && target < root->val)
-                return abs(prev-target) < abs(root->val-target) ? prev : root->val;
-            prev = root->val;
-            root = root->right;
+        int closest = root->val, val = root->val;
+        while (root) {
+            val = root->val;
+            closest = (abs(val-target) < abs(closest-target)) ? val : closest;
+            root = (target < root->val) ? root->left : root->right;
         }
-        return int(prev);
+        return closest;
     }
 };
