@@ -11,6 +11,7 @@ Records on my submissions to LeetCode Weekly Contest and Biweekly Contest.
 | [Biweekly Contest 17](https://leetcode.com/contest/biweekly-contest-17) | Jan 11, 2020 | 3 / 4 | 12 | 965 / 2590 | [Solution Set](./Biweekly%20Contest%2017/) |
 | [Weekly Contest 171](https://leetcode.com/contest/weekly-contest-171/) | Jan 11, 2020 | 2 / 4 | 7 | 2024 / 5482 | [Solution Set](./Weekly%20Contest%20171/) |
 | [Weekly Contest 172](https://leetcode.com/contest/weekly-contest-172/) | Jan 18, 2020 | 3 / 4 | 12 | 2386 / 6604 | [Solution Set](./Weekly%20Contest%20172/) |
+| [Weekly Contest 179](https://leetcode.com/contest/weekly-contest-179/) | Mar 7, 2020 | 3 / 4 | 12 | 6046 / 6242 | [Solution Set](./Weekly%20Contest%20179/) |
 
 ## Milestones
 
