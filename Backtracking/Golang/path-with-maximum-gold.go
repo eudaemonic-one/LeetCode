@@ -11,38 +11,23 @@ func getMaximumGold(grid [][]int) int {
     return res
 }
 
-func dfs(grid [][]int, m, n, i, j, sum int, res *int) bool {
+func dfs(grid [][]int, m, n, i, j, sum int, res *int) {
     if i < 0 || i >= m || j < 0 || j >= n || grid[i][j] == 0 {
-        return false
+        return
     }
     
     gold := grid[i][j]
     sum += gold
     grid[i][j] = 0
-    defer func() {
-        grid[i][j] = gold
-    }()
     
-    flag := false
-    if dfs(grid, m, n, i, j-1, sum, res) {
-        flag = true
-    }
-    if dfs(grid, m, n, i, j+1, sum, res) {
-        flag = true
-    }
-    if dfs(grid, m, n, i-1, j, sum, res) {
-        flag = true
-    }
-    if dfs(grid, m, n, i+1, j, sum, res) {
-        flag = true
-    }
+    dfs(grid, m, n, i, j-1, sum, res)
+    dfs(grid, m, n, i, j+1, sum, res)
+    dfs(grid, m, n, i-1, j, sum, res)
+    dfs(grid, m, n, i+1, j, sum, res)
     
-    if flag == false {
-        *res = max(*res, sum)
-        return true
-    }
+    grid[i][j] = gold
     
-    return false
+    *res = max(*res, sum)
 }
 
 func max(x, y int) int {
