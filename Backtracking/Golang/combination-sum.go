@@ -6,29 +6,20 @@ func combinationSum(candidates []int, target int) [][]int {
 }
 
 func backtrack(candidates []int, idx, target int, seq *[]int, res *[][]int) {
-    if idx >= len(candidates) { // Hit end state
-        if target == 0 {
-            ans := make([]int, len(*seq))
-            copy(ans, *seq)
-            *res = append(*res, ans)
-        }
-        return
-    } else if target < 0 { // Prun if target less than zero
+    if target < 0 {
         return
     }
     
-    // If not append current candidate at index idx
-    backtrack(candidates, idx+1, target, seq, res)
-    
-    // If append current candidate at index idx (unlimited number of times)
-    i := 0
-    for target >= 0 {
-        target -= candidates[idx]
-        *seq = append(*seq, candidates[idx])
-        i++
-        backtrack(candidates, idx+1, target, seq, res)
+    if target == 0 {
+        tmp := make([]int, len(*seq))
+        copy(tmp, *seq)
+        *res = append(*res, tmp)
+        return
     }
-    for ;i > 0; i-- {
-        (*seq) = (*seq)[:len(*seq)-1]
+    
+    for i := idx; i < len(candidates); i++ {
+        *seq = append(*seq, candidates[i])
+        backtrack(candidates, i, target-candidates[i], seq, res)
+        *seq = (*seq)[:len(*seq)-1]
     }
 }
