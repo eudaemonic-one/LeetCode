@@ -1,12 +1,16 @@
 func nextGreaterElement(nums1 []int, nums2 []int) []int {
     table := make(map[int]int)
     stack := make([]int, 0)
-    for _, num := range nums2 {
-        for len(stack) > 0 && stack[len(stack)-1] < num {
-            table[stack[len(stack)-1]] = num
+    for i := len(nums2)-1; i >= 0; i-- {
+        for len(stack) > 0 && nums2[i] >= stack[len(stack)-1] {
             stack = stack[:len(stack)-1]
         }
-        stack = append(stack, num)
+        if len(stack) == 0 {
+            table[nums2[i]] = -1
+        } else {
+            table[nums2[i]] = stack[len(stack)-1]
+        }
+        stack = append(stack, nums2[i])
     }
     res := make([]int, len(nums1))
     for i, num := range nums1 {
