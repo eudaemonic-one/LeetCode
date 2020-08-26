@@ -1,0 +1,34 @@
+/**
+ * Definition for singly-linked list.
+ * type ListNode struct {
+ *     Val int
+ *     Next *ListNode
+ * }
+ */
+func reverseKGroup(head *ListNode, k int) *ListNode {
+    if head == nil || k == 0 {
+        return nil
+    }
+    a, b := head, head
+    for i := 1; i <= k; i++ {
+        if b == nil {
+            return head
+        }
+        b = b.Next
+    }
+    newHead := reverse(a, b)
+    a.Next = reverseKGroup(b, k)
+    return newHead
+}
+
+func reverse(a, b *ListNode) *ListNode {
+    var curr, prev *ListNode
+    curr = a
+    for curr != b {
+        next := curr.Next
+        curr.Next = prev
+        prev = curr
+        curr = next
+    }
+    return prev
+}
