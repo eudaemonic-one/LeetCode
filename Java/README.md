@@ -13,5 +13,6 @@ My Java solution set to LeetCode problems.
 | 57 | [57. Insert Interval](https://leetcode.com/problems/insert-interval/) | [Sol](./57.java) | Medium | Array, Sort |
 | 97 | [97. Interleaving String](https://leetcode.com/problems/interleaving-string/) | [Sol](./97.java) | Hard | String, Dynamic Programming |
 | 1525 | [1525. Number of Good Ways to Split a String](https://leetcode.com/problems/number-of-good-ways-to-split-a-string/) | [Sol](./1525.java) | Medium | String, Bit Manipulation |
+| 1253 | [1253. Reconstruct a 2-Row Binary Matrix](https://leetcode.com/problems/reconstruct-a-2-row-binary-matrix/) | [Sol](./1253.java) | Medium | Math, Greedy |
 
 ## Milestones
