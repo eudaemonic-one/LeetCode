@@ -18,5 +18,6 @@ My Java solution set to LeetCode problems.
 | 738 | [738. Monotone Increasing Digits](https://leetcode.com/problems/monotone-increasing-digits/) | [Sol](./738.java) | Medium | Greedy |
 | 917 | [917. Reverse Only Letters](https://leetcode.com/problems/reverse-only-letters/) | [Sol](./917.java) | Easy | String |
 | 210 | [210. Course Schedule II](https://leetcode.com/problems/course-schedule-ii/) | [Sol](./210.java) | Medium | Depth-first Search, Breadth-first Search, Graph, Topological Sort |
+| 329 | [329. Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/) | [Sol](./329.java) | Hard | Depth-first Search, Topological Sort, Memoization |
 
 ## Milestones
