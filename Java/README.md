@@ -21,5 +21,6 @@ My Java solution set to LeetCode problems.
 | 329 | [329. Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/) | [Sol](./329.java) | Hard | Depth-first Search, Topological Sort, Memoization |
 | 207 | [207. Course Schedule](https://leetcode.com/problems/course-schedule/) | [Sol](./207.java) | Medium | Depth-first Search, Breadth-first Search, Graph, Topological Sort |
 | 1337 | [1337. The K Weakest Rows in a Matrix](https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix/) | [Sol](./1337.java) | Easy | Array, Binary Serach |
+| 269 | [269. Alien Dictionary](https://leetcode.com/problems/alien-dictionary/) | [Sol](./269.java) | Hard | Graph, Topological Sort |
 
 ## Milestones
