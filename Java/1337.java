@@ -1,43 +1,68 @@
-// Approach 3: Binary Search and Priority Queue
+// Approach 4: Vertical Iteration
 class Solution {
     public int[] kWeakestRows(int[][] mat, int k) {
         int m = mat.length;
         int n = mat[0].length;
-        PriorityQueue<int[]> pq = new PriorityQueue<>((a, b) -> {
-            if (a[1] == b[1]) {
-                return b[0] - a[0];
-            }
-            return b[1] - a[1];
-        });
-        for (int i = 0; i < m; i++) {
-            int count = binarySearch(mat[i]);
-            int[] pair = new int[]{i, count};
-            pq.add(pair);
-            if (pq.size() > k) {
-                pq.poll();
+        int idx = 0;
+        int[] res = new int[k];
+        for (int c = 0; c < n && idx < k; c++) {
+            for (int r = 0; r < m && idx < k; r++) {
+                if (mat[r][c] == 0 && (c == 0 || mat[r][c-1] == 1)) {
+                    res[idx] = r;
+                    ++idx;
+                }
             }
         }
-        int[] res = new int[k];
-        for (int i = k-1; i >= 0; i--) {
-            res[i] = pq.poll()[0];
+        for (int r = 0; idx < k; r++) {
+            if (mat[r][n-1] == 1) {
+                res[idx] = r;
+                ++idx;
+            }
         }
         return res;
     }
-    
-    private int binarySearch(int[] nums) {
-        int l = 0;
-        int r = nums.length;
-        while (l < r) {
-            int m = l + (r - l) / 2;
-            if (nums[m] == 1) {
-                l = m + 1;
-            } else {
-                r = m;
-            }
-        }
-        return l;
-    }
 }
+
+// Approach 3: Binary Search and Priority Queue
+// class Solution {
+//     public int[] kWeakestRows(int[][] mat, int k) {
+//         int m = mat.length;
+//         int n = mat[0].length;
+//         PriorityQueue<int[]> pq = new PriorityQueue<>((a, b) -> {
+//             if (a[1] == b[1]) {
+//                 return b[0] - a[0];
+//             }
+//             return b[1] - a[1];
+//         });
+//         for (int i = 0; i < m; i++) {
+//             int count = binarySearch(mat[i]);
+//             int[] pair = new int[]{i, count};
+//             pq.add(pair);
+//             if (pq.size() > k) {
+//                 pq.poll();
+//             }
+//         }
+//         int[] res = new int[k];
+//         for (int i = k-1; i >= 0; i--) {
+//             res[i] = pq.poll()[0];
+//         }
+//         return res;
+//     }
+    
+//     private int binarySearch(int[] nums) {
+//         int l = 0;
+//         int r = nums.length;
+//         while (l < r) {
+//             int m = l + (r - l) / 2;
+//             if (nums[m] == 1) {
+//                 l = m + 1;
+//             } else {
+//                 r = m;
+//             }
+//         }
+//         return l;
+//     }
+// }
 
 // Approach 2: Binary Search and Sorting/Map
 // class Solution {
