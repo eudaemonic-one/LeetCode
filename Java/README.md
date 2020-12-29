@@ -28,5 +28,6 @@ My Java solution set to LeetCode problems.
 | 1544 | [1544. Make The String Great](https://leetcode.com/problems/make-the-string-great/) | [Sol](./1544.java) | Easy | String, Stack |
 | 351 | [351. Android Unlock Patterns](https://leetcode.com/problems/android-unlock-patterns/) | [Sol](./351.java) | Medium | Dynamic Programming, Backtracking |
 | 970 | [970. Powerful Integers](https://leetcode.com/problems/powerful-integers/) | [Sol](./970.java) | Easy | Hash Table, Math |
+| 1224 | [1224. Maximum Equal Frequency](https://leetcode.com/problems/maximum-equal-frequency/) | [Sol](./1224.java) | Hard | Hash Table |
 
 ## Milestones
