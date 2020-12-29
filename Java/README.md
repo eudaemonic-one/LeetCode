@@ -20,5 +20,14 @@ My Java solution set to LeetCode problems.
 | 210 | [210. Course Schedule II](https://leetcode.com/problems/course-schedule-ii/) | [Sol](./210.java) | Medium | Depth-first Search, Breadth-first Search, Graph, Topological Sort |
 | 329 | [329. Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/) | [Sol](./329.java) | Hard | Depth-first Search, Topological Sort, Memoization |
 | 207 | [207. Course Schedule](https://leetcode.com/problems/course-schedule/) | [Sol](./207.java) | Medium | Depth-first Search, Breadth-first Search, Graph, Topological Sort |
+| 1337 | [1337. The K Weakest Rows in a Matrix](https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix/) | [Sol](./1337.java) | Easy | Array, Binary Serach |
+| 269 | [269. Alien Dictionary](https://leetcode.com/problems/alien-dictionary/) | [Sol](./269.java) | Hard | Graph, Topological Sort |
+| 1203 | [1203. Sort Items by Groups Respecting Dependencies](https://leetcode.com/problems/sort-items-by-groups-respecting-dependencies/) | [Sol](./1203.java) | Hard | Depth-first Search, Graph, Topological Sort |
+| 109 | [109. Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/) | [Sol](./109.java) | Medium | Linked List, Depth-first Search |
+| 1150 | [1150. Check If a Number Is Majority Element in a Sorted Array](https://leetcode.com/problems/check-if-a-number-is-majority-element-in-a-sorted-array/) | [Sol](./1150.java) | Easy | Array, Binary Search |
+| 1544 | [1544. Make The String Great](https://leetcode.com/problems/make-the-string-great/) | [Sol](./1544.java) | Easy | String, Stack |
+| 351 | [351. Android Unlock Patterns](https://leetcode.com/problems/android-unlock-patterns/) | [Sol](./351.java) | Medium | Dynamic Programming, Backtracking |
+| 970 | [970. Powerful Integers](https://leetcode.com/problems/powerful-integers/) | [Sol](./970.java) | Easy | Hash Table, Math |
+| 1224 | [1224. Maximum Equal Frequency](https://leetcode.com/problems/maximum-equal-frequency/) | [Sol](./1224.java) | Hard | Hash Table |
 
 ## Milestones
