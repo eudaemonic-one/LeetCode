@@ -30,5 +30,6 @@ My Java solution set to LeetCode problems.
 | 970 | [970. Powerful Integers](https://leetcode.com/problems/powerful-integers/) | [Sol](./970.java) | Easy | Hash Table, Math |
 | 1224 | [1224. Maximum Equal Frequency](https://leetcode.com/problems/maximum-equal-frequency/) | [Sol](./1224.java) | Hard | Hash Table |
 | 678 | [678. Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/) | [Sol](./678.java) | Medium | String |
+| 1475 | [1475. Final Prices With a Special Discount in a Shop](https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/) | [Sol](./1475.java) | Easy | Array |
 
 ## Milestones
