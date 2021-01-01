@@ -32,5 +32,6 @@ My Java solution set to LeetCode problems.
 | 678 | [678. Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/) | [Sol](./678.java) | Medium | String |
 | 1475 | [1475. Final Prices With a Special Discount in a Shop](https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/) | [Sol](./1475.java) | Easy | Array |
 | 1553 | [1553. Minimum Number of Days to Eat N Oranges](https://leetcode.com/problems/minimum-number-of-days-to-eat-n-oranges/) | [Sol](./1553.java) | Hard | Dynamic Programming |
+| 103 | [103. Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) | [Sol](./103.java) | Medium | Stack, Tree, Breadth-first Search |
 
 ## Milestones
