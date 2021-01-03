@@ -35,5 +35,6 @@ My Java solution set to LeetCode problems.
 | 103 | [103. Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) | [Sol](./103.java) | Medium | Stack, Tree, Breadth-first Search |
 | 117 | [117. Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/) | [Sol](./117.java) | Medium | Tree, Depth-first Search |
 | 930 | [930. Binary Subarrays With Sum](https://leetcode.com/problems/binary-subarrays-with-sum/) | [Sol](./930.java) | Medium | Hash Table, Two Pointers |
+| 1117 | [1117. Building H2O](https://leetcode.com/problems/building-h2o/) | [Sol](./1117.java) | Medium | |
 
 ## Milestones
