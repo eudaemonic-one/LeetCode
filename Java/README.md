@@ -33,5 +33,6 @@ My Java solution set to LeetCode problems.
 | 1475 | [1475. Final Prices With a Special Discount in a Shop](https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/) | [Sol](./1475.java) | Easy | Array |
 | 1553 | [1553. Minimum Number of Days to Eat N Oranges](https://leetcode.com/problems/minimum-number-of-days-to-eat-n-oranges/) | [Sol](./1553.java) | Hard | Dynamic Programming |
 | 103 | [103. Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) | [Sol](./103.java) | Medium | Stack, Tree, Breadth-first Search |
+| 117 | [117. Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/) | [Sol](./117.java) | Medium | Tree, Depth-first Search |
 
 ## Milestones
