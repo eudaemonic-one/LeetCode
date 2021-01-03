@@ -36,5 +36,6 @@ My Java solution set to LeetCode problems.
 | 117 | [117. Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/) | [Sol](./117.java) | Medium | Tree, Depth-first Search |
 | 930 | [930. Binary Subarrays With Sum](https://leetcode.com/problems/binary-subarrays-with-sum/) | [Sol](./930.java) | Medium | Hash Table, Two Pointers |
 | 1117 | [1117. Building H2O](https://leetcode.com/problems/building-h2o/) | [Sol](./1117.java) | Medium | |
+| 659 | [659. Split Array into Consecutive Subsequences](https://leetcode.com/problems/split-array-into-consecutive-subsequences/) | [Sol](./659.java) | Medium | Heap, Greedy |
 
 ## Milestones
