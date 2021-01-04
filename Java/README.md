@@ -31,5 +31,12 @@ My Java solution set to LeetCode problems.
 | 1224 | [1224. Maximum Equal Frequency](https://leetcode.com/problems/maximum-equal-frequency/) | [Sol](./1224.java) | Hard | Hash Table |
 | 678 | [678. Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/) | [Sol](./678.java) | Medium | String |
 | 1475 | [1475. Final Prices With a Special Discount in a Shop](https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/) | [Sol](./1475.java) | Easy | Array |
+| 1553 | [1553. Minimum Number of Days to Eat N Oranges](https://leetcode.com/problems/minimum-number-of-days-to-eat-n-oranges/) | [Sol](./1553.java) | Hard | Dynamic Programming |
+| 103 | [103. Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) | [Sol](./103.java) | Medium | Stack, Tree, Breadth-first Search |
+| 117 | [117. Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/) | [Sol](./117.java) | Medium | Tree, Depth-first Search |
+| 930 | [930. Binary Subarrays With Sum](https://leetcode.com/problems/binary-subarrays-with-sum/) | [Sol](./930.java) | Medium | Hash Table, Two Pointers |
+| 1117 | [1117. Building H2O](https://leetcode.com/problems/building-h2o/) | [Sol](./1117.java) | Medium | |
+| 659 | [659. Split Array into Consecutive Subsequences](https://leetcode.com/problems/split-array-into-consecutive-subsequences/) | [Sol](./659.java) | Medium | Heap, Greedy |
+| 743 | [743. Network Delay Time](https://leetcode.com/problems/network-delay-time/) | [Sol](./743.java) | Medium | Heap, Depth-first Search, Breadth-first Search, Graph |
 
 ## Milestones
