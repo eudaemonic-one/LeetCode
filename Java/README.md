@@ -37,5 +37,6 @@ My Java solution set to LeetCode problems.
 | 930 | [930. Binary Subarrays With Sum](https://leetcode.com/problems/binary-subarrays-with-sum/) | [Sol](./930.java) | Medium | Hash Table, Two Pointers |
 | 1117 | [1117. Building H2O](https://leetcode.com/problems/building-h2o/) | [Sol](./1117.java) | Medium | |
 | 659 | [659. Split Array into Consecutive Subsequences](https://leetcode.com/problems/split-array-into-consecutive-subsequences/) | [Sol](./659.java) | Medium | Heap, Greedy |
+| 743 | [743. Network Delay Time](https://leetcode.com/problems/network-delay-time/) | [Sol](./743.java) | Medium | Heap, Depth-first Search, Breadth-first Search, Graph |
 
 ## Milestones
