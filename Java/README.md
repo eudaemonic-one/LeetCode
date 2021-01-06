@@ -39,5 +39,6 @@ My Java solution set to LeetCode problems.
 | 659 | [659. Split Array into Consecutive Subsequences](https://leetcode.com/problems/split-array-into-consecutive-subsequences/) | [Sol](./659.java) | Medium | Heap, Greedy |
 | 743 | [743. Network Delay Time](https://leetcode.com/problems/network-delay-time/) | [Sol](./743.java) | Medium | Heap, Depth-first Search, Breadth-first Search, Graph |
 | 1625 | [1625. Lexicographically Smallest String After Applying Operations](https://leetcode.com/problems/lexicographically-smallest-string-after-applying-operations/) | [Sol](./1625.java) | Medium | Depth-first Search, Breadth-first Search |
+| 1259 | [1259. Handshakes That Don't Cross](https://leetcode.com/problems/handshakes-that-dont-cross/) | [Sol](./1259.java) | Hard | Math, Dynamic Programming |
 
 ## Milestones
