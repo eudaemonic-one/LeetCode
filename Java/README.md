@@ -42,5 +42,6 @@ My Java solution set to LeetCode problems.
 | 1259 | [1259. Handshakes That Don't Cross](https://leetcode.com/problems/handshakes-that-dont-cross/) | [Sol](./1259.java) | Hard | Math, Dynamic Programming |
 | 122 | [122. Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | [Sol](./122.java) | Easy | Array, Greedy |
 | 64 | [64. Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) | [Sol](./64.java) | Medium | Array, Dynamic Programming |
+| 244 | [244. Shortest Word Distance II](https://leetcode.com/problems/shortest-word-distance-ii/) | [Sol](./244.java) | Medium | Hash Table, Design |
 
 ## Milestones
