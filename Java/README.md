@@ -41,5 +41,6 @@ My Java solution set to LeetCode problems.
 | 1625 | [1625. Lexicographically Smallest String After Applying Operations](https://leetcode.com/problems/lexicographically-smallest-string-after-applying-operations/) | [Sol](./1625.java) | Medium | Depth-first Search, Breadth-first Search |
 | 1259 | [1259. Handshakes That Don't Cross](https://leetcode.com/problems/handshakes-that-dont-cross/) | [Sol](./1259.java) | Hard | Math, Dynamic Programming |
 | 122 | [122. Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | [Sol](./122.java) | Easy | Array, Greedy |
+| 64 | [64. Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) | [Sol](./64.java) | Medium | Array, Dynamic Programming |
 
 ## Milestones
