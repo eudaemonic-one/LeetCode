@@ -44,5 +44,6 @@ My Java solution set to LeetCode problems.
 | 64 | [64. Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) | [Sol](./64.java) | Medium | Array, Dynamic Programming |
 | 244 | [244. Shortest Word Distance II](https://leetcode.com/problems/shortest-word-distance-ii/) | [Sol](./244.java) | Medium | Hash Table, Design |
 | 913 | [913. Cat and Mouse](https://leetcode.com/problems/cat-and-mouse/) | [Sol](./913.java) | Hard | Breadth-first Search, Minimax |
+| 259 | [259. 3Sum Smaller](https://leetcode.com/problems/3sum-smaller/) | [Sol](./259.java) | Medium | Array, Two Pointers |
 
 ## Milestones
