@@ -47,5 +47,6 @@ My Java solution set to LeetCode problems.
 | 259 | [259. 3Sum Smaller](https://leetcode.com/problems/3sum-smaller/) | [Sol](./259.java) | Medium | Array, Two Pointers |
 | 250 | [250. Count Univalue Subtrees](https://leetcode.com/problems/count-univalue-subtrees/) | [Sol](./250.java) | Medium | Tree |
 | 694 | [694. Number of Distinct Islands](https://leetcode.com/problems/number-of-distinct-islands/) | [Sol](./694.java) | Medium | Hash Table, Depth-first Search |
+| 1708 | [1708. Largest Subarray Length K](https://leetcode.com/problems/largest-subarray-length-k/) | [Sol](./1708.java) | Easy | Array, Greedy |
 
 ## Milestones
