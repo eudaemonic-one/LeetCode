@@ -50,5 +50,6 @@ My Java solution set to LeetCode problems.
 | 1708 | [1708. Largest Subarray Length K](https://leetcode.com/problems/largest-subarray-length-k/) | [Sol](./1708.java) | Easy | Array, Greedy |
 | 1163 | [1163. Last Substring in Lexicographical Order](https://leetcode.com/problems/last-substring-in-lexicographical-order/) | [Sol](./1163.java) | Hard | String, Suffix Array |
 | 1046 | [1046. Last Stone Weight](https://leetcode.com/problems/last-stone-weight/) | [Sol](./1046.java) | Easy | Heap, Greedy |
+| 228 | [228. Summary Ranges](https://leetcode.com/problems/summary-ranges/) | [Sol](./228.java) | Easy | Array |
 
 ## Milestones
