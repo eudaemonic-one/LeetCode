@@ -48,5 +48,6 @@ My Java solution set to LeetCode problems.
 | 250 | [250. Count Univalue Subtrees](https://leetcode.com/problems/count-univalue-subtrees/) | [Sol](./250.java) | Medium | Tree |
 | 694 | [694. Number of Distinct Islands](https://leetcode.com/problems/number-of-distinct-islands/) | [Sol](./694.java) | Medium | Hash Table, Depth-first Search |
 | 1708 | [1708. Largest Subarray Length K](https://leetcode.com/problems/largest-subarray-length-k/) | [Sol](./1708.java) | Easy | Array, Greedy |
+| 1163 | [1163. Last Substring in Lexicographical Order](https://leetcode.com/problems/last-substring-in-lexicographical-order/) | [Sol](./1163.java) | Hard | String, Suffix Array |
 
 ## Milestones
