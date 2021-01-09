@@ -52,5 +52,6 @@ My Java solution set to LeetCode problems.
 | 1046 | [1046. Last Stone Weight](https://leetcode.com/problems/last-stone-weight/) | [Sol](./1046.java) | Easy | Heap, Greedy |
 | 228 | [228. Summary Ranges](https://leetcode.com/problems/summary-ranges/) | [Sol](./228.java) | Easy | Array |
 | 741 | [741. Cherry Pickup](https://leetcode.com/problems/cherry-pickup/) | [Sol](./741.java) | Hard | Dynamic Programming |
+| 976 | [976. Largest Perimeter Triangle](https://leetcode.com/problems/largest-perimeter-triangle/) | [Sol](./976.java) | Easy | Math, Sort |
 
 ## Milestones
