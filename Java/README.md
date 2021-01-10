@@ -52,5 +52,9 @@ My Java solution set to LeetCode problems.
 | 1046 | [1046. Last Stone Weight](https://leetcode.com/problems/last-stone-weight/) | [Sol](./1046.java) | Easy | Heap, Greedy |
 | 228 | [228. Summary Ranges](https://leetcode.com/problems/summary-ranges/) | [Sol](./228.java) | Easy | Array |
 | 741 | [741. Cherry Pickup](https://leetcode.com/problems/cherry-pickup/) | [Sol](./741.java) | Hard | Dynamic Programming |
+| 976 | [976. Largest Perimeter Triangle](https://leetcode.com/problems/largest-perimeter-triangle/) | [Sol](./976.java) | Easy | Math, Sort |
+| 696 | [696. Count Binary Substrings](https://leetcode.com/problems/count-binary-substrings/) | [Sol](./696.java) | Easy | String |
+| 368 | [368. Largest Divisible Subset](https://leetcode.com/problems/largest-divisible-subset/) | [Sol](./368.java) | Medium | Math, Dynamic Programming |
+| 1601 | [1601. Maximum Number of Achievable Transfer Requests](https://leetcode.com/problems/maximum-number-of-achievable-transfer-requests/) | [Sol](./1601.java) | Hard | Dynamic Programming |
 
 ## Milestones
