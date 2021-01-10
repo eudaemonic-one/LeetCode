@@ -55,5 +55,6 @@ My Java solution set to LeetCode problems.
 | 976 | [976. Largest Perimeter Triangle](https://leetcode.com/problems/largest-perimeter-triangle/) | [Sol](./976.java) | Easy | Math, Sort |
 | 696 | [696. Count Binary Substrings](https://leetcode.com/problems/count-binary-substrings/) | [Sol](./696.java) | Easy | String |
 | 368 | [368. Largest Divisible Subset](https://leetcode.com/problems/largest-divisible-subset/) | [Sol](./368.java) | Medium | Math, Dynamic Programming |
+| 1601 | [1601. Maximum Number of Achievable Transfer Requests](https://leetcode.com/problems/maximum-number-of-achievable-transfer-requests/) | [Sol](./1601.java) | Hard | Dynamic Programming |
 
 ## Milestones
