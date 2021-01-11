@@ -59,5 +59,6 @@ My Java solution set to LeetCode problems.
 | 590 | [590. N-ary Tree Postorder Traversal](https://leetcode.com/problems/n-ary-tree-postorder-traversal/) | [Sol](./590.java) | Easy | Tree |
 | 531 | [531. Lonely Pixel I](https://leetcode.com/problems/lonely-pixel-i/) | [Sol](./531.java) | Medium | Array, Depth-first Search |
 | 1189 | [1189. Maximum Number of Balloons](https://leetcode.com/problems/maximum-number-of-balloons/) | [Sol](./1189.java) | Easy | Hash Table, String |
+| 420 | [420. Strong Password Checker](https://leetcode.com/problems/strong-password-checker/) | [Sol](./420.java) | Hard | |
 
 ## Milestones
