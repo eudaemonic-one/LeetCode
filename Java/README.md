@@ -57,5 +57,6 @@ My Java solution set to LeetCode problems.
 | 368 | [368. Largest Divisible Subset](https://leetcode.com/problems/largest-divisible-subset/) | [Sol](./368.java) | Medium | Math, Dynamic Programming |
 | 1601 | [1601. Maximum Number of Achievable Transfer Requests](https://leetcode.com/problems/maximum-number-of-achievable-transfer-requests/) | [Sol](./1601.java) | Hard | Dynamic Programming |
 | 590 | [590. N-ary Tree Postorder Traversal](https://leetcode.com/problems/n-ary-tree-postorder-traversal/) | [Sol](./590.java) | Easy | Tree |
+| 531 | [531. Lonely Pixel I](https://leetcode.com/problems/lonely-pixel-i/) | [Sol](./531.java) | Medium | Array, Depth-first Search |
 
 ## Milestones
