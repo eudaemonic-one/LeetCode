@@ -61,5 +61,6 @@ My Java solution set to LeetCode problems.
 | 1189 | [1189. Maximum Number of Balloons](https://leetcode.com/problems/maximum-number-of-balloons/) | [Sol](./1189.java) | Easy | Hash Table, String |
 | 420 | [420. Strong Password Checker](https://leetcode.com/problems/strong-password-checker/) | [Sol](./420.java) | Hard | |
 | 849 | [849. Maximize Distance to Closest Person](https://leetcode.com/problems/maximize-distance-to-closest-person/) | [Sol](./849.java) | Medium | Array |
+| 1447 | [1447. Simplified Fractions](https://leetcode.com/problems/simplified-fractions/) | [Sol](./1447.java) | Medium | Math |
 
 ## Milestones
