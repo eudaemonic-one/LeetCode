@@ -65,5 +65,6 @@ My Java solution set to LeetCode problems.
 | 1404 | [1404. Number of Steps to Reduce a Number in Binary Representation to One](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one/) | [Sol](./1404.java) | Medium | String, Bit Manipulation |
 | 1021 | [1021. Remove Outermost Parentheses](https://leetcode.com/problems/remove-outermost-parentheses/) | [Sol](./1021.java) | Easy | Stack |
 | 1432 | [1432. Max Difference You Can Get From Changing an Integer](https://leetcode.com/problems/max-difference-you-can-get-from-changing-an-integer/) | [Sol](./1432.java) | Medium | String |
+| 848 | [848. Shifting Letters](https://leetcode.com/problems/shifting-letters/) | [Sol](./848.java) | Medium | String |
 
 ## Milestones
