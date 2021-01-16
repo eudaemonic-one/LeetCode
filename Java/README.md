@@ -72,5 +72,6 @@ My Java solution set to LeetCode problems.
 | 1022 | [1022. Sum of Root To Leaf Binary Numbers](https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/) | [Sol](./1022.java) | Easy | Tree |
 | 465 | [465. Optimal Account Balancing](https://leetcode.com/problems/optimal-account-balancing/) | [Sol](./465.java) | Hard | |
 | 1005 | [1005. Maximize Sum Of Array After K Negations](https://leetcode.com/problems/maximize-sum-of-array-after-k-negations/) | [Sol](./1005.java) | Easy | Greedy |
+| 866 | [866. Prime Palindrome](https://leetcode.com/problems/prime-palindrome/) | [Sol](./866.java) | Medium | Math |
 
 ## Milestones
