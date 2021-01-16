@@ -68,5 +68,6 @@ My Java solution set to LeetCode problems.
 | 848 | [848. Shifting Letters](https://leetcode.com/problems/shifting-letters/) | [Sol](./848.java) | Medium | String |
 | 1429 | [1429. First Unique Number](https://leetcode.com/problems/first-unique-number/) | [Sol](./1429.java) | Medium | Hash Table, Design |
 | 892 | [892. Surface Area of 3D Shapes](https://leetcode.com/problems/surface-area-of-3d-shapes/) | [Sol](./892.java) | Easy | Math, Geometry |
+| 632 | [632. Smallest Range Covering Elements from K Lists](https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/) | [Sol](./632.java) | Hard | Hash Table, Two Pointers, String |
 
 ## Milestones
