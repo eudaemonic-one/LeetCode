@@ -64,5 +64,11 @@ My Java solution set to LeetCode problems.
 | 1447 | [1447. Simplified Fractions](https://leetcode.com/problems/simplified-fractions/) | [Sol](./1447.java) | Medium | Math |
 | 1404 | [1404. Number of Steps to Reduce a Number in Binary Representation to One](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one/) | [Sol](./1404.java) | Medium | String, Bit Manipulation |
 | 1021 | [1021. Remove Outermost Parentheses](https://leetcode.com/problems/remove-outermost-parentheses/) | [Sol](./1021.java) | Easy | Stack |
+| 1432 | [1432. Max Difference You Can Get From Changing an Integer](https://leetcode.com/problems/max-difference-you-can-get-from-changing-an-integer/) | [Sol](./1432.java) | Medium | String |
+| 848 | [848. Shifting Letters](https://leetcode.com/problems/shifting-letters/) | [Sol](./848.java) | Medium | String |
+| 1429 | [1429. First Unique Number](https://leetcode.com/problems/first-unique-number/) | [Sol](./1429.java) | Medium | Hash Table, Design |
+| 892 | [892. Surface Area of 3D Shapes](https://leetcode.com/problems/surface-area-of-3d-shapes/) | [Sol](./892.java) | Easy | Math, Geometry |
+| 632 | [632. Smallest Range Covering Elements from K Lists](https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/) | [Sol](./632.java) | Hard | Hash Table, Two Pointers, String |
+| 1022 | [1022. Sum of Root To Leaf Binary Numbers](https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/) | [Sol](./1022.java) | Easy | Tree |
 
 ## Milestones
