@@ -79,5 +79,6 @@ My Java solution set to LeetCode problems.
 | 123 | [123. Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/) | [Sol](./123.java) | Hard | Array, Dynamic Programming |
 | 188 | [123. Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/) | [Sol](./188.java) | Hard | Dynamic Programming |
 | 309 | [309. Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) | [Sol](./309.java) | Medium | Dynamic Programming |
+| 744 | [744. Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/) | [Sol](./744.java) | Easy | Binary Search |
 
 ## Milestones
