@@ -70,5 +70,15 @@ My Java solution set to LeetCode problems.
 | 892 | [892. Surface Area of 3D Shapes](https://leetcode.com/problems/surface-area-of-3d-shapes/) | [Sol](./892.java) | Easy | Math, Geometry |
 | 632 | [632. Smallest Range Covering Elements from K Lists](https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/) | [Sol](./632.java) | Hard | Hash Table, Two Pointers, String |
 | 1022 | [1022. Sum of Root To Leaf Binary Numbers](https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/) | [Sol](./1022.java) | Easy | Tree |
+| 465 | [465. Optimal Account Balancing](https://leetcode.com/problems/optimal-account-balancing/) | [Sol](./465.java) | Hard | |
+| 1005 | [1005. Maximize Sum Of Array After K Negations](https://leetcode.com/problems/maximize-sum-of-array-after-k-negations/) | [Sol](./1005.java) | Easy | Greedy |
+| 866 | [866. Prime Palindrome](https://leetcode.com/problems/prime-palindrome/) | [Sol](./866.java) | Medium | Math |
+| 367 | [367. Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/) | [Sol](./367.java) | Easy | Math, Binary Search |
+| 354 | [354. Russian Doll Envelopes](https://leetcode.com/problems/russian-doll-envelopes/) | [Sol](./354.java) | Hard | Binary Search, Dynamic Programming |
+| 121 | [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [Sol](./121.java) | Easy | Array, Dynamic Programming |
+| 123 | [123. Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/) | [Sol](./123.java) | Hard | Array, Dynamic Programming |
+| 188 | [123. Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/) | [Sol](./188.java) | Hard | Dynamic Programming |
+| 309 | [309. Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) | [Sol](./309.java) | Medium | Dynamic Programming |
+| 744 | [744. Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/) | [Sol](./744.java) | Easy | Binary Search |
 
 ## Milestones
