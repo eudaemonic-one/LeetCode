@@ -74,5 +74,6 @@ My Java solution set to LeetCode problems.
 | 1005 | [1005. Maximize Sum Of Array After K Negations](https://leetcode.com/problems/maximize-sum-of-array-after-k-negations/) | [Sol](./1005.java) | Easy | Greedy |
 | 866 | [866. Prime Palindrome](https://leetcode.com/problems/prime-palindrome/) | [Sol](./866.java) | Medium | Math |
 | 367 | [367. Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/) | [Sol](./367.java) | Easy | Math, Binary Search |
+| 354 | [354. Russian Doll Envelopes](https://leetcode.com/problems/russian-doll-envelopes/) | [Sol](./354.java) | Hard | Binary Search, Dynamic Programming |
 
 ## Milestones
