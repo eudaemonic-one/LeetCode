@@ -81,5 +81,6 @@ My Java solution set to LeetCode problems.
 | 309 | [309. Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) | [Sol](./309.java) | Medium | Dynamic Programming |
 | 744 | [744. Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/) | [Sol](./744.java) | Easy | Binary Search |
 | 346 | [346. Moving Average from Data Stream](https://leetcode.com/problems/moving-average-from-data-stream/) | [Sol](./346.java) | Easy | Design, Queue |
+| 749 | [749. Contain Virus](https://leetcode.com/problems/contain-virus/) | [Sol](./749.java) | Hard | Depth-first Search |
 
 ## Milestones
