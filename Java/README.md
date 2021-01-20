@@ -82,5 +82,6 @@ My Java solution set to LeetCode problems.
 | 744 | [744. Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/) | [Sol](./744.java) | Easy | Binary Search |
 | 346 | [346. Moving Average from Data Stream](https://leetcode.com/problems/moving-average-from-data-stream/) | [Sol](./346.java) | Easy | Design, Queue |
 | 749 | [749. Contain Virus](https://leetcode.com/problems/contain-virus/) | [Sol](./749.java) | Hard | Depth-first Search |
+| 146 | [146. LRU Cache](https://leetcode.com/problems/lru-cache/) | [Sol](./146.java) | Medium | Design |
 
 ## Milestones
