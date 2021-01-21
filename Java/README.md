@@ -87,5 +87,6 @@ My Java solution set to LeetCode problems.
 | 988 | [988. Smallest String Starting From Leaf](https://leetcode.com/problems/smallest-string-starting-from-leaf/) | [Sol](./988.java) | Medium | Tree, Depth-first Search |
 | 1471 | [1471. The k Strongest Values in an Array](https://leetcode.com/problems/the-k-strongest-values-in-an-array/) | [Sol](./1471.java) | Medium | Array, Sort |
 | 230 | [230. Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | [Sol](./230.java) | Medium | Binary Search, Tree |
+| 300 | [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | [Sol](./300.java) | Medium | Binary Search, Dynamic Programming |
 
 ## Milestones
