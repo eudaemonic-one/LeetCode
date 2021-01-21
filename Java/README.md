@@ -85,5 +85,6 @@ My Java solution set to LeetCode problems.
 | 146 | [146. LRU Cache](https://leetcode.com/problems/lru-cache/) | [Sol](./146.java) | Medium | Design |
 | 1254 | [1254. Number of Closed Islands](https://leetcode.com/problems/number-of-closed-islands/) | [Sol](./1254.java) | Medium | Depth-first Search |
 | 988 | [988. Smallest String Starting From Leaf](https://leetcode.com/problems/smallest-string-starting-from-leaf/) | [Sol](./988.java) | Medium | Tree, Depth-first Search |
+| 1471 | [1471. The k Strongest Values in an Array](https://leetcode.com/problems/the-k-strongest-values-in-an-array/) | [Sol](./1471.java) | Medium | Array, Sort |
 
 ## Milestones
