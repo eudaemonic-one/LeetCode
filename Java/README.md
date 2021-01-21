@@ -89,5 +89,6 @@ My Java solution set to LeetCode problems.
 | 230 | [230. Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | [Sol](./230.java) | Medium | Binary Search, Tree |
 | 300 | [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | [Sol](./300.java) | Medium | Binary Search, Dynamic Programming |
 | 240 | [240. Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/) | [Sol](./240.java) | Medium | Binary Search, Divide and Conquer |
+| 1646 | [1646. Get Maximum in Generated Array](https://leetcode.com/problems/get-maximum-in-generated-array/) | [Sol](./1646.java) | Easy | Array |
 
 ## Milestones
