@@ -80,5 +80,13 @@ My Java solution set to LeetCode problems.
 | 188 | [123. Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/) | [Sol](./188.java) | Hard | Dynamic Programming |
 | 309 | [309. Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) | [Sol](./309.java) | Medium | Dynamic Programming |
 | 744 | [744. Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/) | [Sol](./744.java) | Easy | Binary Search |
+| 346 | [346. Moving Average from Data Stream](https://leetcode.com/problems/moving-average-from-data-stream/) | [Sol](./346.java) | Easy | Design, Queue |
+| 749 | [749. Contain Virus](https://leetcode.com/problems/contain-virus/) | [Sol](./749.java) | Hard | Depth-first Search |
+| 146 | [146. LRU Cache](https://leetcode.com/problems/lru-cache/) | [Sol](./146.java) | Medium | Design |
+| 1254 | [1254. Number of Closed Islands](https://leetcode.com/problems/number-of-closed-islands/) | [Sol](./1254.java) | Medium | Depth-first Search |
+| 988 | [988. Smallest String Starting From Leaf](https://leetcode.com/problems/smallest-string-starting-from-leaf/) | [Sol](./988.java) | Medium | Tree, Depth-first Search |
+| 1471 | [1471. The k Strongest Values in an Array](https://leetcode.com/problems/the-k-strongest-values-in-an-array/) | [Sol](./1471.java) | Medium | Array, Sort |
+| 230 | [230. Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | [Sol](./230.java) | Medium | Binary Search, Tree |
+| 300 | [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | [Sol](./300.java) | Medium | Binary Search, Dynamic Programming |
 
 ## Milestones
