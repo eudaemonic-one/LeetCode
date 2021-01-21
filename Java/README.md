@@ -84,5 +84,6 @@ My Java solution set to LeetCode problems.
 | 749 | [749. Contain Virus](https://leetcode.com/problems/contain-virus/) | [Sol](./749.java) | Hard | Depth-first Search |
 | 146 | [146. LRU Cache](https://leetcode.com/problems/lru-cache/) | [Sol](./146.java) | Medium | Design |
 | 1254 | [1254. Number of Closed Islands](https://leetcode.com/problems/number-of-closed-islands/) | [Sol](./1254.java) | Medium | Depth-first Search |
+| 988 | [988. Smallest String Starting From Leaf](https://leetcode.com/problems/smallest-string-starting-from-leaf/) | [Sol](./988.java) | Medium | Tree, Depth-first Search |
 
 ## Milestones
