@@ -91,5 +91,6 @@ My Java solution set to LeetCode problems.
 | 240 | [240. Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/) | [Sol](./240.java) | Medium | Binary Search, Divide and Conquer |
 | 1646 | [1646. Get Maximum in Generated Array](https://leetcode.com/problems/get-maximum-in-generated-array/) | [Sol](./1646.java) | Easy | Array |
 | 1436 | [1436. Destination City](https://leetcode.com/problems/destination-city/) | [Sol](./1436.java) | Easy | String |
+| 1307 | [1307. Verbal Arithmetic Puzzle](https://leetcode.com/problems/verbal-arithmetic-puzzle/) | [Sol](./1307.java) | Hard | Math, Backtracking |
 
 ## Milestones
