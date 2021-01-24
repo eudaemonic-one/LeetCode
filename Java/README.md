@@ -100,5 +100,6 @@ My Java solution set to LeetCode problems.
 | 1104 | [1104. Path In Zigzag Labelled Binary Tree](https://leetcode.com/problems/path-in-zigzag-labelled-binary-tree/) | [Sol](./1104.java) | Medium | Math, Tree |
 | 141 | [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | [Sol](./141.java) | Easy | Linked List, Two Pointers |
 | 948 | [948. Bag of Tokens](https://leetcode.com/problems/bag-of-tokens/) | [Sol](./948.java) | Medium | Two Pointers, Greedy, Sort |
+| 1323 | [1323. Maximum 69 Number](https://leetcode.com/problems/maximum-69-number/) | [Sol](./1323.java) | Easy | Math |
 
 ## Milestones
