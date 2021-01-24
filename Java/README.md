@@ -98,5 +98,6 @@ My Java solution set to LeetCode problems.
 | 294 | [294. Flip Game II](https://leetcode.com/problems/flip-game-ii/) | [Sol](./294.java) | Medium | Backtracking, Minimax |
 | 1265 | [1265. Print Immutable Linked List in Reverse](https://leetcode.com/problems/print-immutable-linked-list-in-reverse/) | [Sol](./1265.java) | Medium | |
 | 1104 | [1104. Path In Zigzag Labelled Binary Tree](https://leetcode.com/problems/path-in-zigzag-labelled-binary-tree/) | [Sol](./1104.java) | Medium | Math, Tree |
+| 141 | [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | [Sol](./141.java) | Easy | Linked List, Two Pointers |
 
 ## Milestones
