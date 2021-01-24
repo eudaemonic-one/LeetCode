@@ -92,5 +92,6 @@ My Java solution set to LeetCode problems.
 | 1646 | [1646. Get Maximum in Generated Array](https://leetcode.com/problems/get-maximum-in-generated-array/) | [Sol](./1646.java) | Easy | Array |
 | 1436 | [1436. Destination City](https://leetcode.com/problems/destination-city/) | [Sol](./1436.java) | Easy | String |
 | 1307 | [1307. Verbal Arithmetic Puzzle](https://leetcode.com/problems/verbal-arithmetic-puzzle/) | [Sol](./1307.java) | Hard | Math, Backtracking |
+| 1689 | [1689. Partitioning Into Minimum Number Of Deci-Binary Numbers](https://leetcode.com/problems/partitioning-into-minimum-number-of-deci-binary-numbers/) | [Sol](./1689.java) | Medium | Greedy |
 
 ## Milestones
