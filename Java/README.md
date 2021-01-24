@@ -96,5 +96,6 @@ My Java solution set to LeetCode problems.
 | 1031 | [1031. Maximum Sum of Two Non-Overlapping Subarrays](https://leetcode.com/problems/maximum-sum-of-two-non-overlapping-subarrays/) | [Sol](./1031.java) | Medium | Array |
 | 285 | [285. Inorder Successor in BST](https://leetcode.com/problems/inorder-successor-in-bst/) | [Sol](./285.java) | Medium | Tree |
 | 294 | [294. Flip Game II](https://leetcode.com/problems/flip-game-ii/) | [Sol](./294.java) | Medium | Backtracking, Minimax |
+| 1265 | [1265. Print Immutable Linked List in Reverse](https://leetcode.com/problems/print-immutable-linked-list-in-reverse/) | [Sol](./1265.java) | Medium | |
 
 ## Milestones
