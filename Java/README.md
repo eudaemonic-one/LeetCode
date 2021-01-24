@@ -95,5 +95,6 @@ My Java solution set to LeetCode problems.
 | 1689 | [1689. Partitioning Into Minimum Number Of Deci-Binary Numbers](https://leetcode.com/problems/partitioning-into-minimum-number-of-deci-binary-numbers/) | [Sol](./1689.java) | Medium | Greedy |
 | 1031 | [1031. Maximum Sum of Two Non-Overlapping Subarrays](https://leetcode.com/problems/maximum-sum-of-two-non-overlapping-subarrays/) | [Sol](./1031.java) | Medium | Array |
 | 285 | [285. Inorder Successor in BST](https://leetcode.com/problems/inorder-successor-in-bst/) | [Sol](./285.java) | Medium | Tree |
+| 294 | [294. Flip Game II](https://leetcode.com/problems/flip-game-ii/) | [Sol](./294.java) | Medium | Backtracking, Minimax |
 
 ## Milestones
