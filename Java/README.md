@@ -104,5 +104,6 @@ My Java solution set to LeetCode problems.
 | 1578 | [1578. Minimum Deletion Cost to Avoid Repeating Letters](https://leetcode.com/problems/minimum-deletion-cost-to-avoid-repeating-letters/) | [Sol](./1578.java) | Medium | Greedy |
 | 308 | [308. Range Sum Query 2D - Mutable](https://leetcode.com/problems/range-sum-query-2d-mutable/) | [Sol](./308.java) | Hard | Binary Indexed Tree, Segment Tree |
 | 1139 | [1139. Largest 1-Bordered Square](https://leetcode.com/problems/largest-1-bordered-square/) | [Sol](./1139.java) | Medium | Dynamic Programming |
+| 1437 | [1437. Check If All 1's Are at Least Length K Places Away](https://leetcode.com/problems/check-if-all-1s-are-at-least-length-k-places-away/) | [Sol](./1437.java) | Easy | Array |
 
 ## Milestones
