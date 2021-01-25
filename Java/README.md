@@ -90,5 +90,21 @@ My Java solution set to LeetCode problems.
 | 300 | [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | [Sol](./300.java) | Medium | Binary Search, Dynamic Programming |
 | 240 | [240. Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/) | [Sol](./240.java) | Medium | Binary Search, Divide and Conquer |
 | 1646 | [1646. Get Maximum in Generated Array](https://leetcode.com/problems/get-maximum-in-generated-array/) | [Sol](./1646.java) | Easy | Array |
+| 1436 | [1436. Destination City](https://leetcode.com/problems/destination-city/) | [Sol](./1436.java) | Easy | String |
+| 1307 | [1307. Verbal Arithmetic Puzzle](https://leetcode.com/problems/verbal-arithmetic-puzzle/) | [Sol](./1307.java) | Hard | Math, Backtracking |
+| 1689 | [1689. Partitioning Into Minimum Number Of Deci-Binary Numbers](https://leetcode.com/problems/partitioning-into-minimum-number-of-deci-binary-numbers/) | [Sol](./1689.java) | Medium | Greedy |
+| 1031 | [1031. Maximum Sum of Two Non-Overlapping Subarrays](https://leetcode.com/problems/maximum-sum-of-two-non-overlapping-subarrays/) | [Sol](./1031.java) | Medium | Array |
+| 285 | [285. Inorder Successor in BST](https://leetcode.com/problems/inorder-successor-in-bst/) | [Sol](./285.java) | Medium | Tree |
+| 294 | [294. Flip Game II](https://leetcode.com/problems/flip-game-ii/) | [Sol](./294.java) | Medium | Backtracking, Minimax |
+| 1265 | [1265. Print Immutable Linked List in Reverse](https://leetcode.com/problems/print-immutable-linked-list-in-reverse/) | [Sol](./1265.java) | Medium | |
+| 1104 | [1104. Path In Zigzag Labelled Binary Tree](https://leetcode.com/problems/path-in-zigzag-labelled-binary-tree/) | [Sol](./1104.java) | Medium | Math, Tree |
+| 141 | [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | [Sol](./141.java) | Easy | Linked List, Two Pointers |
+| 948 | [948. Bag of Tokens](https://leetcode.com/problems/bag-of-tokens/) | [Sol](./948.java) | Medium | Two Pointers, Greedy, Sort |
+| 1323 | [1323. Maximum 69 Number](https://leetcode.com/problems/maximum-69-number/) | [Sol](./1323.java) | Easy | Math |
+| 1578 | [1578. Minimum Deletion Cost to Avoid Repeating Letters](https://leetcode.com/problems/minimum-deletion-cost-to-avoid-repeating-letters/) | [Sol](./1578.java) | Medium | Greedy |
+| 308 | [308. Range Sum Query 2D - Mutable](https://leetcode.com/problems/range-sum-query-2d-mutable/) | [Sol](./308.java) | Hard | Binary Indexed Tree, Segment Tree |
+| 1139 | [1139. Largest 1-Bordered Square](https://leetcode.com/problems/largest-1-bordered-square/) | [Sol](./1139.java) | Medium | Dynamic Programming |
+| 1437 | [1437. Check If All 1's Are at Least Length K Places Away](https://leetcode.com/problems/check-if-all-1s-are-at-least-length-k-places-away/) | [Sol](./1437.java) | Easy | Array |
+| 1138 | [1138. Alphabet Board Path](https://leetcode.com/problems/alphabet-board-path/) | [Sol](./1138.java) | Medium | Hash Table, String |
 
 ## Milestones
