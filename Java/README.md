@@ -108,5 +108,6 @@ My Java solution set to LeetCode problems.
 | 1138 | [1138. Alphabet Board Path](https://leetcode.com/problems/alphabet-board-path/) | [Sol](./1138.java) | Medium | Hash Table, String |
 | 686 | [686. Repeated String Match](https://leetcode.com/problems/repeated-string-match/) | [Sol](./686.java) | Medium | String |
 | 1546 | [1546. Maximum Number of Non-Overlapping Subarrays With Sum Equals Target](https://leetcode.com/problems/maximum-number-of-non-overlapping-subarrays-with-sum-equals-target/) | [Sol](./1546.java) | Medium | Dynamic Programming |
+| 517 | [517. Super Washing Machines](https://leetcode.com/problems/super-washing-machines/) | [Sol](./517.java) | Hard | Math, Dynamic Programming |
 
 ## Milestones
