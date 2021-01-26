@@ -106,5 +106,9 @@ My Java solution set to LeetCode problems.
 | 1139 | [1139. Largest 1-Bordered Square](https://leetcode.com/problems/largest-1-bordered-square/) | [Sol](./1139.java) | Medium | Dynamic Programming |
 | 1437 | [1437. Check If All 1's Are at Least Length K Places Away](https://leetcode.com/problems/check-if-all-1s-are-at-least-length-k-places-away/) | [Sol](./1437.java) | Easy | Array |
 | 1138 | [1138. Alphabet Board Path](https://leetcode.com/problems/alphabet-board-path/) | [Sol](./1138.java) | Medium | Hash Table, String |
+| 686 | [686. Repeated String Match](https://leetcode.com/problems/repeated-string-match/) | [Sol](./686.java) | Medium | String |
+| 1546 | [1546. Maximum Number of Non-Overlapping Subarrays With Sum Equals Target](https://leetcode.com/problems/maximum-number-of-non-overlapping-subarrays-with-sum-equals-target/) | [Sol](./1546.java) | Medium | Dynamic Programming |
+| 517 | [517. Super Washing Machines](https://leetcode.com/problems/super-washing-machines/) | [Sol](./517.java) | Hard | Math, Dynamic Programming |
+| 134 | [134. Gas Station](https://leetcode.com/problems/gas-station/) | [Sol](./134.java) | Medium | Greedy |
 
 ## Milestones
