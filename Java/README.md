@@ -109,5 +109,6 @@ My Java solution set to LeetCode problems.
 | 686 | [686. Repeated String Match](https://leetcode.com/problems/repeated-string-match/) | [Sol](./686.java) | Medium | String |
 | 1546 | [1546. Maximum Number of Non-Overlapping Subarrays With Sum Equals Target](https://leetcode.com/problems/maximum-number-of-non-overlapping-subarrays-with-sum-equals-target/) | [Sol](./1546.java) | Medium | Dynamic Programming |
 | 517 | [517. Super Washing Machines](https://leetcode.com/problems/super-washing-machines/) | [Sol](./517.java) | Hard | Math, Dynamic Programming |
+| 134 | [134. Gas Station](https://leetcode.com/problems/gas-station/) | [Sol](./134.java) | Medium | Greedy |
 
 ## Milestones
