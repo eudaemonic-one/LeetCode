@@ -110,5 +110,6 @@ My Java solution set to LeetCode problems.
 | 1546 | [1546. Maximum Number of Non-Overlapping Subarrays With Sum Equals Target](https://leetcode.com/problems/maximum-number-of-non-overlapping-subarrays-with-sum-equals-target/) | [Sol](./1546.java) | Medium | Dynamic Programming |
 | 517 | [517. Super Washing Machines](https://leetcode.com/problems/super-washing-machines/) | [Sol](./517.java) | Hard | Math, Dynamic Programming |
 | 134 | [134. Gas Station](https://leetcode.com/problems/gas-station/) | [Sol](./134.java) | Medium | Greedy |
+| 1269 | [1269. Number of Ways to Stay in the Same Place After Some Steps](https://leetcode.com/problems/number-of-ways-to-stay-in-the-same-place-after-some-steps/) | [Sol](./1269.java) | Hard | Dynamic Programming |
 
 ## Milestones
