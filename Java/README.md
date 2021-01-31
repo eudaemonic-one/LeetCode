@@ -113,5 +113,6 @@ My Java solution set to LeetCode problems.
 | 1269 | [1269. Number of Ways to Stay in the Same Place After Some Steps](https://leetcode.com/problems/number-of-ways-to-stay-in-the-same-place-after-some-steps/) | [Sol](./1269.java) | Hard | Dynamic Programming |
 | 2 | [2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [Sol](./2.java) | Medium | Linked List, Math, Recursion |
 | 698 | [698. Partition to K Equal Sum Subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/) | [Sol](./698.java) | Medium | Dynamic Programming, Recursion |
+| 163 | [163. Missing Ranges](https://leetcode.com/problems/missing-ranges/) | [Sol](./163.java) | Easy | Array |
 
 ## Milestones
