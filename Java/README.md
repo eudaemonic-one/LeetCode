@@ -114,5 +114,6 @@ My Java solution set to LeetCode problems.
 | 2 | [2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [Sol](./2.java) | Medium | Linked List, Math, Recursion |
 | 698 | [698. Partition to K Equal Sum Subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/) | [Sol](./698.java) | Medium | Dynamic Programming, Recursion |
 | 163 | [163. Missing Ranges](https://leetcode.com/problems/missing-ranges/) | [Sol](./163.java) | Easy | Array |
+| 714 | [714. Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/) | [Sol](./714.java) | Medium | Array, Dynamic Programming, Greedy |
 
 ## Milestones
