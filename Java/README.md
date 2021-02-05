@@ -117,5 +117,6 @@ My Java solution set to LeetCode problems.
 | 714 | [714. Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/) | [Sol](./714.java) | Medium | Array, Dynamic Programming, Greedy |
 | 409 | [409. Longest Palindrome](https://leetcode.com/problems/longest-palindrome/) | [Sol](./409.java) | Easy | Hash Table |
 | 1034 | [1034. Coloring A Border](https://leetcode.com/problems/coloring-a-border/) | [Sol](./1034.java) | Medium | Depth-first Search |
+| 1 | [1. Two Sum](https://leetcode.com/problems/two-sum/) | [Sol](./1.java) | Easy | Array, Hash Table |
 
 ## Milestones
