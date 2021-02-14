@@ -120,5 +120,6 @@ My Java solution set to LeetCode problems.
 | 1 | [1. Two Sum](https://leetcode.com/problems/two-sum/) | [Sol](./1.java) | Easy | Array, Hash Table |
 | 830 | [830. Positions of Large Groups](https://leetcode.com/problems/positions-of-large-groups/) | [Sol](./830.java) | Easy | Array |
 | 1202 | [1202. Smallest String With Swaps](https://leetcode.com/problems/smallest-string-with-swaps/) | [Sol](./1202.java) | Medium | Array, Union Find |
+| 576 | [576. Out of Boundary Paths](https://leetcode.com/problems/out-of-boundary-paths/) | [Sol](./576.java) | Medium | Dynamic Programming, Depth-first Search |
 
 ## Milestones
