@@ -11,5 +11,6 @@ My solution set to LeetCode with company tag [Google](https://leetcode.com/compa
 | 123 | [123. Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/) | [Sol](./123.java) | Hard | Array, Dynamic Programming |
 | 188 | [188. Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/) | [Sol](./188.java) | Hard | Dynamic Programming |
 | 309 | [309. Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) | [Sol](./309.java) | Medium | Dynamic Programming |
+| 714 | [714. Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/) | [Sol](./714.java) | Medium | Array, Dynamic Programming, Greedy |
 
 ## Milestones
