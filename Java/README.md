@@ -117,5 +117,11 @@ My Java solution set to LeetCode problems.
 | 714 | [714. Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/) | [Sol](./714.java) | Medium | Array, Dynamic Programming, Greedy |
 | 409 | [409. Longest Palindrome](https://leetcode.com/problems/longest-palindrome/) | [Sol](./409.java) | Easy | Hash Table |
 | 1034 | [1034. Coloring A Border](https://leetcode.com/problems/coloring-a-border/) | [Sol](./1034.java) | Medium | Depth-first Search |
+| 1 | [1. Two Sum](https://leetcode.com/problems/two-sum/) | [Sol](./1.java) | Easy | Array, Hash Table |
+| 830 | [830. Positions of Large Groups](https://leetcode.com/problems/positions-of-large-groups/) | [Sol](./830.java) | Easy | Array |
+| 1202 | [1202. Smallest String With Swaps](https://leetcode.com/problems/smallest-string-with-swaps/) | [Sol](./1202.java) | Medium | Array, Union Find |
+| 576 | [576. Out of Boundary Paths](https://leetcode.com/problems/out-of-boundary-paths/) | [Sol](./576.java) | Medium | Dynamic Programming, Depth-first Search |
+| 1160 | [1160. Find Words That Can Be Formed by Characters](https://leetcode.com/problems/find-words-that-can-be-formed-by-characters/) | [Sol](./1160.java) | Easy | Array, Hash Table |
+| 32 | [32. Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/) | [Sol](./32.java) | Hard | String, Dynamic Programming |
 
 ## Milestones
