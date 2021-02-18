@@ -13,5 +13,6 @@ My solution set to LeetCode with company tag [Google](https://leetcode.com/compa
 | 309 | [309. Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) | [Sol](./309.java) | Medium | Dynamic Programming |
 | 714 | [714. Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/) | [Sol](./714.java) | Medium | Array, Dynamic Programming, Greedy |
 | 1356 | [1356. Sort Integers by The Number of 1 Bits](https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits/) | [Sol](./1356.java) | Easy | Sort, Bit Manipulation |
+| 916 | [916. Word Subsets](https://leetcode.com/problems/word-subsets/) | [Sol](./916.java) | Medium | String |
 
 ## Milestones
