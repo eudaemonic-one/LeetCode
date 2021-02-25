@@ -123,5 +123,6 @@ My Java solution set to LeetCode problems.
 | 576 | [576. Out of Boundary Paths](https://leetcode.com/problems/out-of-boundary-paths/) | [Sol](./576.java) | Medium | Dynamic Programming, Depth-first Search |
 | 1160 | [1160. Find Words That Can Be Formed by Characters](https://leetcode.com/problems/find-words-that-can-be-formed-by-characters/) | [Sol](./1160.java) | Easy | Array, Hash Table |
 | 32 | [32. Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/) | [Sol](./32.java) | Hard | String, Dynamic Programming |
+| 1328 | [1328. Break a Palindrome](https://leetcode.com/problems/break-a-palindrome/) | [Sol](./1328.java) | Medium | String |
 
 ## Milestones
