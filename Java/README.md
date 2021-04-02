@@ -126,5 +126,7 @@ My Java solution set to LeetCode problems.
 | 1328 | [1328. Break a Palindrome](https://leetcode.com/problems/break-a-palindrome/) | [Sol](./1328.java) | Medium | String |
 | 315 | [315. Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/) | [Sol](./315.java) | Hard | Binary Search, Divide and Conquer, Sort, Binary Indexed Tree, Segment Tree |
 | 218 | [218. The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/) | [Sol](./218.java) | Hard | Divide and Conquer, Heap, Binary Indexed Tree, Segment Tree, Line Sweep |
+| 410 | [410. Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/) | [Sol](./410.java) | Hard | Binary Search, Dynamic Programming |
+
 
 ## Milestones
